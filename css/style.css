@@ -90,10 +90,13 @@ header div {
   font-size: 1.1rem;
 }
 
-header div .menu:hover {
-  color: #b46449;
+header div .menu {
+  color: black;
   cursor: pointer;
-  border-bottom: 2px solid currentColor;
+  border-bottom: 2px solid transparent;
+}
+header div .menu:hover {
+  border-bottom: 2px solid #c0512d;
 }
 
 
