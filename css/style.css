@@ -1,0 +1,226 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/* start navbar  */
+ 
+ .logo:hover{
+   text-decoration: none;
+ }
+
+ .dropbtn{
+   color: aqua;
+ }
+ 
+
+nav a:hover,a:focus,.titles {
+  color:#b46449;
+}
+
+.logo{
+  font-size: 30px;
+  color: black;
+  
+}
+
+/* dropdown  */
+
+ 
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #e6cac1;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+ 
+/* end navbar  */
+
+/* start text on image  */
+img {
+  display: block; 
+     
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.caption {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+hr.new {
+  border-top: 5px solid #c0512d;
+}
+
+/* end text on image  */
+
+
+/* start header  */
+
+header div {
+  font-size: 1.1rem;
+}
+
+header div .menu:hover {
+  color: #b46449;
+  cursor: pointer;
+  border-bottom: 2px solid currentColor;
+}
+
+
+/* end header  */
+
+ /*  media query  */
+
+ 
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+  .caption {
+    
+    top: 0.6%;
+     
+}
+ 
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+ 
+  .caption {
+    top: 1%;
+}
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  
+.caption {
+    
+  top: 0.6%;
+   
+}
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .caption {
+    
+    top: 4%;
+     
+}
+ 
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .caption {
+    
+    top: 4%;
+     
+}
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .caption {
+    
+    top: 4%;
+     
+}
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+  .caption {
+    top: 5%;
+}
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  .caption {
+    
+    top: 10%;
+     
+}
+}
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .caption {
+    
+    top: 0.6%;
+     
+}
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  .caption {
+    
+    top: 0.6%;
+     
+}
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  .caption {
+    
+    top: 0.6%;
+     
+}
+}
+    
